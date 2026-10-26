@@ -1,0 +1,42 @@
+Inv #,Client,E-mail Addr,Date Issued,Pay By,Amt,Curr,Stat,Sales Rep,Notes
+INV-1001,Northwind Traders,northwindtraders@example.com,2026-06-17,07/02/2026,8937.37,CAD,Paid,M. Chen,
+INV-1002,Maple Leaf Supply,mapleleafsupply@example.com,06/27/2026,Aug 11 2026,"$7,147.34",CAD,Open,J. Patel,net 30
+INV-1003,Northwind Traders,northwindtraders@example.com,Mar 05 2026,2026-04-19,6800.75,cad,PAID,L. Moreau,net 30
+INV-1004,,lakeviewelectronics@example.com,2026-04-29,06/13/2026,"$9,741.75",CAD,Paid,L. Moreau,rush order
+INV-1005,Cedar & Pine Co,cedarpineco@example.com,03/17/2026,Apr 01 2026,11492.97,USD,Open,J. Patel,
+INV-1006,Summit Outfitters,summitoutfitters@example.com,Jan 29 2026,2026-02-28,"$7,304.15",CAD,open,J. Patel,
+INV-1007,Lakeview Electronics,lakeviewelectronics@example.com,2026-01-25,03/11/2026,9978.45,cad,Overdue,M. Chen,
+INV-1008,Cedar & Pine Co,cedarpineco@example.com,01/16/2026,Mar 02 2026,-250.00,CAD,Paid,J. Patel,
+INV-1009,Summit Outfitters,summitoutfitters@example.com,Mar 17 2026,2026-04-16,2077.45,USD,Paid,S. Okafor,
+INV-1010,Blue Harbour Foods,blueharbourfoods@example.com,2026-06-09,07/24/2026,"$6,479.56",CAD,Paid,L. Moreau,
+INV-1011,Cedar & Pine Co,cedarpineco@example.com,03/15/2026,Apr 29 2026,8262.68,CAD,Paid,J. Patel,rush order
+INV-1012,Maple Leaf Supply,billing@@bad,Apr 17 2026,2026-05-17,"$2,650.15",cad,Overdue,M. Chen,
+INV-1013,Granite Field Services,granitefieldservices@example.com,2026-04-16,05/31/2026,1843.03,CAD,Paid,S. Okafor,
+INV-1014,Riverbend Bakery,riverbendbakery@example.com,08/22/2026,Oct 06 2026,"$4,439.66",CAD,PAID,L. Moreau,
+INV-1015,Maple Leaf Supply,mapleleafsupply@example.com,Jul 17 2026,2026-08-01,1961.17,CAD,open,J. Patel,
+INV-1016,Granite Field Services,granitefieldservices@example.com,sometime in May,05/27/2026,"$6,420.00",cad,Open,J. Patel,rush order
+INV-1017,Summit Outfitters,summitoutfitters@example.com,07/20/2026,Sep 03 2026,1471.89,USD,Paid,L. Moreau,
+INV-1018,Lakeview Electronics,lakeviewelectronics@example.com,Sep 06 2026,2026-10-21,"$11,666.87",CAD,PAID,J. Patel,rush order
+INV-1019,Cedar & Pine Co,cedarpineco@example.com,2026-08-08,09/22/2026,1961.15,CAD,PAID,J. Patel,rush order
+INV-1020,Maple Leaf Supply,mapleleafsupply@example.com,05/10/2026,01/02/2026,"$11,159.82",USD,Paid,J. Patel,net 30
+INV-1021,Maple Leaf Supply,mapleleafsupply@example.com,Aug 17 2026,2026-10-01,1164.99,USD,Open,M. Chen,net 30
+INV-1022,Blue Harbour Foods,blueharbourfoods@example.com,2026-06-22,07/22/2026,"$3,290.92",cad,open,M. Chen,net 30
+INV-1023,Riverbend Bakery,riverbendbakery@example.com,07/06/2026,Aug 05 2026,11942.52,BTC,Overdue,L. Moreau,
+INV-1024,Cedar & Pine Co,cedarpineco@example.com,Feb 04 2026,2026-02-19,$908.71,CAD,PAID,M. Chen,net 30
+INV-1025,Northwind Traders,northwindtraders@example.com,2026-01-06,01/21/2026,2862.96,CAD,Overdue,J. Patel,net 30
+INV-1026,Granite Field Services,granitefieldservices@example.com,03/17/2026,May 01 2026,"$2,688.71",CAD,PAID,L. Moreau,net 30
+INV-1027,Riverbend Bakery,riverbendbakery@example.com,Jul 24 2026,2026-08-23,,CAD,open,S. Okafor,
+INV-1028,Northwind Traders,northwindtraders@example.com,2026-04-20,05/20/2026,"$8,129.37",cad,Open,J. Patel,
+INV-1029,Maple Leaf Supply,mapleleafsupply@example.com,07/10/2026,Aug 09 2026,3096.58,CAD,PAID,L. Moreau,net 30
+INV-1030,Lakeview Electronics,lakeviewelectronics@example.com,Apr 23 2026,2026-05-08,"$5,632.14",CAD,open,J. Patel,
+INV-1031,Northwind Traders,northwindtraders@example.com,2026-06-20,08/04/2026,11632.61,CAD,Paid,L. Moreau,
+INV-1032,Riverbend Bakery,riverbendbakery@example.com,05/08/2026,May 23 2026,"$10,843.95",CAD,open,J. Patel,
+INV-1033,Lakeview Electronics,lakeviewelectronics@example.com,Mar 13 2026,2026-04-12,5162.64,cad,PAID,L. Moreau,net 30
+INV-1034,Cedar & Pine Co,cedarpineco@example.com,2026-02-22,03/24/2026,"$11,629.21",cad,PAID,J. Patel,rush order
+INV-1035,Granite Field Services,granitefieldservices@example.com,01/19/2026,Feb 03 2026,6108.78,cad,Paid,J. Patel,
+INV-1036,Maple Leaf Supply,mapleleafsupply@example.com,Aug 10 2026,2026-08-25,"$7,201.17",cad,Paid,L. Moreau,
+INV-1037,Cedar & Pine Co,cedarpineco@example.com,2026-09-03,10/18/2026,7010.19,CAD,PAID,J. Patel,
+INV-1038,Summit Outfitters,summitoutfitters@example.com,06/22/2026,Aug 06 2026,"$11,226.27",CAD,Overdue,M. Chen,rush order
+INV-1039,Lakeview Electronics,lakeviewelectronics@example.com,Apr 16 2026,2026-05-01,5568.11,CAD,Open,L. Moreau,
+INV-1040,Cedar & Pine Co,cedarpineco@example.com,2026-01-23,03/09/2026,"$6,144.73",CAD,Overdue,J. Patel,net 30
+INV-1006,Summit Outfitters,summitoutfitters@example.com,Jan 29 2026,2026-02-28,"$7,304.15",CAD,open,J. Patel,

@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    env:
+      # Empty unless you add ANTHROPIC_API_KEY as a repository secret.
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+
+      # Free: unit tests use a fake LLM client, so no API calls are made.
+      - name: Unit tests
+        run: python -m pytest -q
+
+      # Free: the keyword baseline, for comparison.
+      - name: Baseline accuracy (rules)
+        run: python eval/run_eval.py --mapper rules
+
+      # Paid (a few cents): only runs when the secret exists.
+      # Fails the build if the LLM's mapping accuracy drops below 90%.
+      - name: LLM accuracy (Claude)
+        if: env.ANTHROPIC_API_KEY != ''
+        run: python eval/run_eval.py --mapper llm --min-accuracy 0.9

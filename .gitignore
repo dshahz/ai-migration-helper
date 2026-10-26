@@ -1,0 +1,7 @@
+output/
+__pycache__/
+.pytest_cache/
+.env
+.venv/
+eval/results_*.json
+.ruff_cache/
