@@ -23,7 +23,7 @@ import pandas as pd
 
 from src.target_schema import TARGET_FIELDS, TARGET_SCHEMA
 
-DEFAULT_MODEL = os.environ.get("MAPPER_MODEL", "claude-sonnet-5-5")
+DEFAULT_MODEL = os.environ.get("MAPPER_MODEL", "claude-sonnet-4-6")
 
 
 # ---------------------------------------------------------------------------

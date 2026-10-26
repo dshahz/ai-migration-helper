@@ -1,0 +1,130 @@
+{
+  "_about": "Harder test: data/legacy_invoices_hard.csv has 15 columns, 7 of which are look-alike decoys that should NOT be migrated (null). Each variant maps the column in that file to the name used in the variant, plus the correct target. Entries are listed in the order the columns appear in that variant: the cryptic variant shuffles them, so column position gives no hint.",
+  "data": "data/legacy_invoices_hard.csv",
+  "variants": {
+    "decoys_named": {
+      "Document No.": [
+        "Document No.",
+        "invoice_number"
+      ],
+      "Sold To": [
+        "Sold To",
+        "customer_name"
+      ],
+      "Contact Person": [
+        "Contact Person",
+        null
+      ],
+      "Contact Email": [
+        "Contact Email",
+        "customer_email"
+      ],
+      "Rep Email": [
+        "Rep Email",
+        null
+      ],
+      "Posting Date": [
+        "Posting Date",
+        "invoice_date"
+      ],
+      "Due": [
+        "Due",
+        "due_date"
+      ],
+      "Last Modified": [
+        "Last Modified",
+        null
+      ],
+      "Subtotal": [
+        "Subtotal",
+        null
+      ],
+      "HST": [
+        "HST",
+        null
+      ],
+      "Total": [
+        "Total",
+        "amount"
+      ],
+      "Ccy": [
+        "Ccy",
+        "currency"
+      ],
+      "Stat": [
+        "Stat",
+        "status"
+      ],
+      "Approval": [
+        "Approval",
+        null
+      ],
+      "Notes": [
+        "Notes",
+        null
+      ]
+    },
+    "decoys_cryptic": {
+      "Stat": [
+        "c01",
+        "status"
+      ],
+      "Total": [
+        "c02",
+        "amount"
+      ],
+      "Due": [
+        "c03",
+        "due_date"
+      ],
+      "Ccy": [
+        "c04",
+        "currency"
+      ],
+      "Notes": [
+        "c05",
+        null
+      ],
+      "Document No.": [
+        "c06",
+        "invoice_number"
+      ],
+      "Rep Email": [
+        "c07",
+        null
+      ],
+      "Sold To": [
+        "c08",
+        "customer_name"
+      ],
+      "Last Modified": [
+        "c09",
+        null
+      ],
+      "Approval": [
+        "c10",
+        null
+      ],
+      "Posting Date": [
+        "c11",
+        "invoice_date"
+      ],
+      "Contact Person": [
+        "c12",
+        null
+      ],
+      "Subtotal": [
+        "c13",
+        null
+      ],
+      "HST": [
+        "c14",
+        null
+      ],
+      "Contact Email": [
+        "c15",
+        "customer_email"
+      ]
+    }
+  }
+}

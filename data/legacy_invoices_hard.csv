@@ -1,0 +1,42 @@
+Document No.,Sold To,Contact Person,Contact Email,Rep Email,Posting Date,Due,Last Modified,Subtotal,HST,Total,Ccy,Stat,Approval,Notes
+INV-1001,Northwind Traders,Ava Singh,northwindtraders@example.com,m.chen@ourco-internal.example,2026-06-17,07/02/2026,2026-07-08 10:25,7909.18,1028.19,8937.37,CAD,Paid,Approved,
+INV-1002,Maple Leaf Supply,Mia Kowalski,mapleleafsupply@example.com,j.patel@ourco-internal.example,06/27/2026,Aug 11 2026,2026-08-19 16:06,6325.08,822.26,"$7,147.34",CAD,Open,Rejected,net 30
+INV-1003,Northwind Traders,Ava Singh,northwindtraders@example.com,l.moreau@ourco-internal.example,Mar 05 2026,2026-04-19,2026-03-09 16:13,6018.36,782.39,6800.75,cad,PAID,Approved,net 30
+INV-1004,,Olivia Roy,lakeviewelectronics@example.com,l.moreau@ourco-internal.example,2026-04-29,06/13/2026,2026-05-27 14:04,8621.02,1120.73,"$9,741.75",CAD,Paid,Approved,rush order
+INV-1005,Cedar & Pine Co,Liam Tremblay,cedarpineco@example.com,j.patel@ourco-internal.example,03/17/2026,Apr 01 2026,2026-04-22 14:03,10170.77,1322.20,11492.97,USD,Open,Approved,
+INV-1006,Summit Outfitters,Ava Singh,summitoutfitters@example.com,j.patel@ourco-internal.example,Jan 29 2026,2026-02-28,2026-03-11 18:37,6463.85,840.30,"$7,304.15",CAD,open,Rejected,
+INV-1007,Lakeview Electronics,Olivia Roy,lakeviewelectronics@example.com,m.chen@ourco-internal.example,2026-01-25,03/11/2026,2026-03-04 14:03,8830.49,1147.96,9978.45,cad,Overdue,Approved,
+INV-1008,Cedar & Pine Co,Lucas Martin,cedarpineco@example.com,j.patel@ourco-internal.example,01/16/2026,Mar 02 2026,2026-02-21 10:18,-221.24,-28.76,-250.00,CAD,Paid,Approved,
+INV-1009,Summit Outfitters,Ethan Wong,summitoutfitters@example.com,s.okafor@ourco-internal.example,Mar 17 2026,2026-04-16,2026-04-21 09:36,1838.45,239.00,2077.45,USD,Paid,Rejected,
+INV-1010,Blue Harbour Foods,Liam Tremblay,blueharbourfoods@example.com,l.moreau@ourco-internal.example,2026-06-09,07/24/2026,2026-08-01 18:11,5734.12,745.44,"$6,479.56",CAD,Paid,Rejected,
+INV-1011,Cedar & Pine Co,Mia Kowalski,cedarpineco@example.com,j.patel@ourco-internal.example,03/15/2026,Apr 29 2026,2026-04-21 18:12,7312.11,950.57,8262.68,CAD,Paid,Approved,rush order
+INV-1012,Maple Leaf Supply,Ava Singh,billing@@bad,m.chen@ourco-internal.example,Apr 17 2026,2026-05-17,2026-05-23 09:36,2345.27,304.88,"$2,650.15",cad,Overdue,Rejected,
+INV-1013,Granite Field Services,Lucas Martin,granitefieldservices@example.com,s.okafor@ourco-internal.example,2026-04-16,05/31/2026,2026-04-30 15:43,1631.00,212.03,1843.03,CAD,Paid,Approved,
+INV-1014,Riverbend Bakery,Zoe Bouchard,riverbendbakery@example.com,l.moreau@ourco-internal.example,08/22/2026,Oct 06 2026,2026-09-21 17:59,3928.90,510.76,"$4,439.66",CAD,PAID,Approved,
+INV-1015,Maple Leaf Supply,Noah Gagnon,mapleleafsupply@example.com,j.patel@ourco-internal.example,Jul 17 2026,2026-08-01,2026-08-06 11:50,1735.55,225.62,1961.17,CAD,open,Approved,
+INV-1016,Granite Field Services,Zoe Bouchard,granitefieldservices@example.com,j.patel@ourco-internal.example,sometime in May,05/27/2026,2026-06-07 17:19,5681.42,738.58,"$6,420.00",cad,Open,Approved,rush order
+INV-1017,Summit Outfitters,Liam Tremblay,summitoutfitters@example.com,l.moreau@ourco-internal.example,07/20/2026,Sep 03 2026,2026-09-05 15:18,1302.56,169.33,1471.89,USD,Paid,Approved,
+INV-1018,Lakeview Electronics,Mia Kowalski,lakeviewelectronics@example.com,j.patel@ourco-internal.example,Sep 06 2026,2026-10-21,2026-10-09 14:10,10324.66,1342.21,"$11,666.87",CAD,PAID,Approved,rush order
+INV-1019,Cedar & Pine Co,Ava Singh,cedarpineco@example.com,j.patel@ourco-internal.example,2026-08-08,09/22/2026,2026-10-07 15:26,1735.53,225.62,1961.15,CAD,PAID,Approved,rush order
+INV-1020,Maple Leaf Supply,Mia Kowalski,mapleleafsupply@example.com,j.patel@ourco-internal.example,05/10/2026,01/02/2026,2026-06-28 16:36,9875.95,1283.87,"$11,159.82",USD,Paid,Approved,net 30
+INV-1021,Maple Leaf Supply,Zoe Bouchard,mapleleafsupply@example.com,m.chen@ourco-internal.example,Aug 17 2026,2026-10-01,2026-10-01 13:38,1030.96,134.03,1164.99,USD,Open,Rejected,net 30
+INV-1022,Blue Harbour Foods,Liam Tremblay,blueharbourfoods@example.com,m.chen@ourco-internal.example,2026-06-22,07/22/2026,2026-08-13 15:04,2912.32,378.60,"$3,290.92",cad,open,Approved,net 30
+INV-1023,Riverbend Bakery,Ava Singh,riverbendbakery@example.com,l.moreau@ourco-internal.example,07/06/2026,Aug 05 2026,2026-08-06 18:04,10568.60,1373.92,11942.52,BTC,Overdue,Approved,
+INV-1024,Cedar & Pine Co,Zoe Bouchard,cedarpineco@example.com,m.chen@ourco-internal.example,Feb 04 2026,2026-02-19,2026-03-18 17:43,804.17,104.54,$908.71,CAD,PAID,Approved,net 30
+INV-1025,Northwind Traders,Mia Kowalski,northwindtraders@example.com,j.patel@ourco-internal.example,2026-01-06,01/21/2026,2026-02-21 14:56,2533.59,329.37,2862.96,CAD,Overdue,Approved,net 30
+INV-1026,Granite Field Services,Liam Tremblay,granitefieldservices@example.com,l.moreau@ourco-internal.example,03/17/2026,May 01 2026,2026-04-16 13:10,2379.39,309.32,"$2,688.71",CAD,PAID,Pending,net 30
+INV-1027,Riverbend Bakery,Ethan Wong,riverbendbakery@example.com,s.okafor@ourco-internal.example,Jul 24 2026,2026-08-23,2026-07-28 11:49,,,,CAD,open,Approved,
+INV-1028,Northwind Traders,Lucas Martin,northwindtraders@example.com,j.patel@ourco-internal.example,2026-04-20,05/20/2026,2026-06-07 11:25,7194.13,935.24,"$8,129.37",cad,Open,Pending,
+INV-1029,Maple Leaf Supply,Lucas Martin,mapleleafsupply@example.com,l.moreau@ourco-internal.example,07/10/2026,Aug 09 2026,2026-07-16 10:28,2740.34,356.24,3096.58,CAD,PAID,Rejected,net 30
+INV-1030,Lakeview Electronics,Lucas Martin,lakeviewelectronics@example.com,j.patel@ourco-internal.example,Apr 23 2026,2026-05-08,2026-05-11 10:52,4984.19,647.95,"$5,632.14",CAD,open,Rejected,
+INV-1031,Northwind Traders,Lucas Martin,northwindtraders@example.com,l.moreau@ourco-internal.example,2026-06-20,08/04/2026,2026-07-08 14:22,10294.35,1338.26,11632.61,CAD,Paid,Approved,
+INV-1032,Riverbend Bakery,Noah Gagnon,riverbendbakery@example.com,j.patel@ourco-internal.example,05/08/2026,May 23 2026,2026-05-18 09:11,9596.42,1247.53,"$10,843.95",CAD,open,Approved,
+INV-1033,Lakeview Electronics,Zoe Bouchard,lakeviewelectronics@example.com,l.moreau@ourco-internal.example,Mar 13 2026,2026-04-12,2026-04-25 11:00,4568.71,593.93,5162.64,cad,PAID,Rejected,net 30
+INV-1034,Cedar & Pine Co,Ava Singh,cedarpineco@example.com,j.patel@ourco-internal.example,2026-02-22,03/24/2026,2026-03-06 12:18,10291.34,1337.87,"$11,629.21",cad,PAID,Approved,rush order
+INV-1035,Granite Field Services,Mia Kowalski,granitefieldservices@example.com,j.patel@ourco-internal.example,01/19/2026,Feb 03 2026,2026-02-15 16:23,5406.00,702.78,6108.78,cad,Paid,Approved,
+INV-1036,Maple Leaf Supply,Ava Singh,mapleleafsupply@example.com,l.moreau@ourco-internal.example,Aug 10 2026,2026-08-25,2026-09-24 16:39,6372.72,828.45,"$7,201.17",cad,Paid,Pending,
+INV-1037,Cedar & Pine Co,Lucas Martin,cedarpineco@example.com,j.patel@ourco-internal.example,2026-09-03,10/18/2026,2026-10-31 18:51,6203.71,806.48,7010.19,CAD,PAID,Pending,
+INV-1038,Summit Outfitters,Zoe Bouchard,summitoutfitters@example.com,m.chen@ourco-internal.example,06/22/2026,Aug 06 2026,2026-07-18 14:06,9934.75,1291.52,"$11,226.27",CAD,Overdue,Pending,rush order
+INV-1039,Lakeview Electronics,Olivia Roy,lakeviewelectronics@example.com,l.moreau@ourco-internal.example,Apr 16 2026,2026-05-01,2026-04-20 11:04,4927.53,640.58,5568.11,CAD,Open,Pending,
+INV-1040,Cedar & Pine Co,Ava Singh,cedarpineco@example.com,j.patel@ourco-internal.example,2026-01-23,03/09/2026,2026-02-03 09:21,5437.81,706.92,"$6,144.73",CAD,Overdue,Approved,net 30
+INV-1006,Summit Outfitters,Liam Tremblay,summitoutfitters@example.com,j.patel@ourco-internal.example,Jan 29 2026,2026-02-28,2026-01-30 17:09,6463.85,840.30,"$7,304.15",CAD,open,Approved,

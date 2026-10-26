@@ -1,41 +1,132 @@
 {
   "_about": "Three versions of the same export with different column names. Each maps the original column in data/legacy_invoices.csv to the name used in that variant, plus the correct target field. null = should NOT be migrated. Variant 3 uses meaningless names, so only the sample values can reveal the answer.",
+  "data": "data/legacy_invoices.csv",
   "variants": {
     "legacy_abbrev": {
-      "Inv #": ["Inv #", "invoice_number"],
-      "Client": ["Client", "customer_name"],
-      "E-mail Addr": ["E-mail Addr", "customer_email"],
-      "Date Issued": ["Date Issued", "invoice_date"],
-      "Pay By": ["Pay By", "due_date"],
-      "Amt": ["Amt", "amount"],
-      "Curr": ["Curr", "currency"],
-      "Stat": ["Stat", "status"],
-      "Sales Rep": ["Sales Rep", null],
-      "Notes": ["Notes", null]
+      "Inv #": [
+        "Inv #",
+        "invoice_number"
+      ],
+      "Client": [
+        "Client",
+        "customer_name"
+      ],
+      "E-mail Addr": [
+        "E-mail Addr",
+        "customer_email"
+      ],
+      "Date Issued": [
+        "Date Issued",
+        "invoice_date"
+      ],
+      "Pay By": [
+        "Pay By",
+        "due_date"
+      ],
+      "Amt": [
+        "Amt",
+        "amount"
+      ],
+      "Curr": [
+        "Curr",
+        "currency"
+      ],
+      "Stat": [
+        "Stat",
+        "status"
+      ],
+      "Sales Rep": [
+        "Sales Rep",
+        null
+      ],
+      "Notes": [
+        "Notes",
+        null
+      ]
     },
     "accounting_terms": {
-      "Inv #": ["Document No.", "invoice_number"],
-      "Client": ["Bill To", "customer_name"],
-      "E-mail Addr": ["Contact", "customer_email"],
-      "Date Issued": ["Txn Date", "invoice_date"],
-      "Pay By": ["Terms Date", "due_date"],
-      "Amt": ["Gross", "amount"],
-      "Curr": ["Ccy", "currency"],
-      "Stat": ["Payment State", "status"],
-      "Sales Rep": ["Account Manager", null],
-      "Notes": ["Internal Memo", null]
+      "Inv #": [
+        "Document No.",
+        "invoice_number"
+      ],
+      "Client": [
+        "Bill To",
+        "customer_name"
+      ],
+      "E-mail Addr": [
+        "Contact",
+        "customer_email"
+      ],
+      "Date Issued": [
+        "Txn Date",
+        "invoice_date"
+      ],
+      "Pay By": [
+        "Terms Date",
+        "due_date"
+      ],
+      "Amt": [
+        "Gross",
+        "amount"
+      ],
+      "Curr": [
+        "Ccy",
+        "currency"
+      ],
+      "Stat": [
+        "Payment State",
+        "status"
+      ],
+      "Sales Rep": [
+        "Account Manager",
+        null
+      ],
+      "Notes": [
+        "Internal Memo",
+        null
+      ]
     },
     "cryptic": {
-      "Inv #": ["fld_01", "invoice_number"],
-      "Client": ["fld_02", "customer_name"],
-      "E-mail Addr": ["fld_03", "customer_email"],
-      "Date Issued": ["fld_04", "invoice_date"],
-      "Pay By": ["fld_05", "due_date"],
-      "Amt": ["fld_06", "amount"],
-      "Curr": ["fld_07", "currency"],
-      "Stat": ["fld_08", "status"],
-      "Sales Rep": ["fld_09", null],
-      "Notes": ["fld_10", null]
+      "Inv #": [
+        "fld_01",
+        "invoice_number"
+      ],
+      "Client": [
+        "fld_02",
+        "customer_name"
+      ],
+      "E-mail Addr": [
+        "fld_03",
+        "customer_email"
+      ],
+      "Date Issued": [
+        "fld_04",
+        "invoice_date"
+      ],
+      "Pay By": [
+        "fld_05",
+        "due_date"
+      ],
+      "Amt": [
+        "fld_06",
+        "amount"
+      ],
+      "Curr": [
+        "fld_07",
+        "currency"
+      ],
+      "Stat": [
+        "fld_08",
+        "status"
+      ],
+      "Sales Rep": [
+        "fld_09",
+        null
+      ],
+      "Notes": [
+        "fld_10",
+        null
+      ]
     }
   }
 }

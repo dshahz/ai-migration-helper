@@ -16,7 +16,11 @@ from src.target_schema import TARGET_FIELDS
 from src.transform import apply_mapping
 from src.validate import validate
 
-SAMPLE = Path(__file__).parent / "data" / "legacy_invoices.csv"
+DATA = Path(__file__).parent / "data"
+SAMPLES = {
+    "Basic sample (10 columns)": DATA / "legacy_invoices.csv",
+    "Hard sample (15 columns, with decoys)": DATA / "legacy_invoices_hard.csv",
+}
 NOT_MIGRATED = "(not migrated)"
 
 st.set_page_config(page_title="AI Migration Helper", layout="wide")
@@ -25,11 +29,20 @@ st.caption("AI suggests the mapping, rules check the data, a human makes the fin
 
 # 1. Load the legacy file ------------------------------------------------------
 uploaded = st.file_uploader("Upload a legacy export (CSV)", type="csv")
-source = uploaded if uploaded is not None else SAMPLE
+if uploaded is not None:
+    source, file_key = uploaded, f"upload:{uploaded.name}:{uploaded.size}"
+else:
+    sample = st.selectbox("...or use a synthetic sample file", list(SAMPLES))
+    source, file_key = SAMPLES[sample], f"sample:{sample}"
 raw = pd.read_csv(source, dtype=str, keep_default_na=False, na_values=[""])
 st.write(f"**{len(raw)} rows**, {len(raw.columns)} columns"
-         + ("" if uploaded else " (using the synthetic sample file)"))
+         + ("" if uploaded else " (synthetic data)"))
 st.dataframe(raw.head(8), width="stretch")
+
+# A different file means the old mapping no longer applies.
+if st.session_state.get("file_key") != file_key:
+    st.session_state.pop("mappings", None)
+    st.session_state.file_key = file_key
 
 # 2. Propose a mapping ---------------------------------------------------------
 has_key = bool(os.environ.get("ANTHROPIC_API_KEY"))

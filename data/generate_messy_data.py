@@ -1,6 +1,6 @@
 """Create a fake "legacy system export" full of realistic problems.
 
-The data is synthetic, so it's safe to share publicly. It mimics what
+The data is synthetic (made up), so it's safe to share publicly. It mimics what
 a real client export often looks like: odd column names, mixed date formats,
 currency symbols in amounts, blanks, duplicates, and a couple of columns the
 new system doesn't need.

@@ -2,6 +2,10 @@ output/
 __pycache__/
 .pytest_cache/
 .env
-.venv/
 eval/results_*.json
 .ruff_cache/
+.venv/
+venv/
+
+# Personal working notes / handoff context — keep out of a public portfolio repo
+CLAUDE.md

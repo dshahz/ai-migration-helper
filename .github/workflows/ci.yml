@@ -24,10 +24,16 @@ jobs:
 
       # Free: the keyword baseline, for comparison.
       - name: Baseline accuracy (rules)
-        run: python eval/run_eval.py --mapper rules
+        run: python eval/run_eval.py --mapper rules --set all
 
       # Paid (a few cents): only runs when the secret exists.
-      # Fails the build if the LLM's mapping accuracy drops below 90%.
-      - name: LLM accuracy (Claude)
+      # The basic set is a quality gate: the build fails below 90%.
+      - name: LLM accuracy, basic set (Claude)
         if: env.ANTHROPIC_API_KEY != ''
-        run: python eval/run_eval.py --mapper llm --min-accuracy 0.9
+        run: python eval/run_eval.py --mapper llm --set basic --min-accuracy 0.9
+
+      # The hard (decoy) set is report-only: misses here are expected and are
+      # exactly what the human review step exists for.
+      - name: LLM accuracy, hard set (Claude)
+        if: env.ANTHROPIC_API_KEY != ''
+        run: python eval/run_eval.py --mapper llm --set hard

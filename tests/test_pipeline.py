@@ -108,6 +108,29 @@ def test_llm_gives_up_cleanly_if_never_uses_tool(raw):
         LLMMapper(client=client).map_columns(raw)
 
 
+ROOT = Path(__file__).resolve().parent.parent
+
+
+@pytest.mark.parametrize("spec_name", ["header_variants.json", "hard_variants.json"])
+def test_eval_answer_keys_cover_every_column(spec_name):
+    spec = json.loads((ROOT / "eval" / spec_name).read_text())
+    data = pd.read_csv(ROOT / spec["data"], dtype=str, nrows=1)
+    for name, variant in spec["variants"].items():
+        assert set(variant) == set(data.columns), f"{spec_name}:{name} doesn't match the data file"
+
+
+def test_hard_file_has_same_problems_when_decoys_are_skipped():
+    """With the right mapping, the decoy columns change nothing: still 33 clean, 8 quarantined."""
+    spec = json.loads((ROOT / "eval" / "hard_variants.json").read_text())
+    truth = spec["variants"]["decoys_named"]
+    hard = pd.read_csv(ROOT / spec["data"], dtype=str, keep_default_na=False, na_values=[""])
+    mapping = [{"source_column": c, "target_field": t, "confidence": 1.0, "reason": ""}
+               for c, (_, t) in truth.items()]
+    clean, quarantine, recon = validate(apply_mapping(hard, mapping))
+    assert (len(clean), len(quarantine)) == (33, 8)
+    assert recon["amount_reconciles"]
+
+
 def test_approved_mapping_round_trip(raw, tmp_path):
     from pipeline import run
     path = tmp_path / "mapping.json"
